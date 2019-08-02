@@ -1,0 +1,11 @@
+.tt-content{
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+}
+.tt-header ~ .tt-content{
+    padding-top: 2.3rem;
+}
+.tt-navbar ~ .tt-content{
+    padding-bottom: 2.5rem;
+}

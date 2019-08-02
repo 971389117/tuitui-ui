@@ -1,0 +1,38 @@
+/* 存放项目里的公共的样式,像控制全局布局的,或者用的比较多的公共样式,都可以放在这个文件中 */
+
+/* 屏幕宽度在340px至410px时的样式 */
+/* 样式2 */
+html {
+  font-size: 20px;
+}
+
+body{
+    /* 为了限制在超宽屏幕表现的最大宽度(例如横屏的 ipad) */
+    max-width: 640px;
+    /* 当屏幕超宽,水平居中 */
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    /* 放置在 X 轴出现滚动条 */
+    overflow-x: hidden;
+    /* 在 webkit 内核(ios)浏览器让滚动元素带有弹性,滚动更顺滑 */
+    -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+
+/* 屏幕宽度小于340px时的样式 */
+@media (max-width: 340px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* 屏幕宽度大于410px时的样式 */
+@media (min-width: 410px) {
+  /* 样式3 */
+  html {
+    font-size: 22px;
+  }
+}

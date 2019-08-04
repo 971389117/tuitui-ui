@@ -1,0 +1,48 @@
+.tt-btn{
+    display: block;
+    position: relative;
+    width: 10rem;
+    margin: 0 auto;
+    padding: .5rem 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: .7rem;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    user-select: none;
+}
+
+.tt-btn.tt-btn-primary{
+    background-color: #1aad19;
+    color:#fff;
+}
+
+.tt-btn.tt-btn-warning{
+    background-color: #e64340;
+    color:#fff;
+}
+
+.tt-btn.tt-btn-disabled{
+    background-color: #f7f7f7;
+    color:#999;
+    opacity: .6;
+}
+
+.tt-btn-large{
+    width: 100%;
+    font-size: .9rem;
+    border-left: none;
+    border-right: none;
+    border-radius: 0
+}
+
+.tt-btn.tt-btn-small{
+    display: inline-block;
+    width: 3rem;
+    padding: 0.2rem 0;
+    font-size: .7rem;
+}

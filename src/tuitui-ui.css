@@ -4,3 +4,12 @@
 @import './header.css';
 @import './content.css';
 @import './navbar.css';
+@import './input.css';
+@import './button.css';
+@import './search.css';
+@import './list.css';
+@import './grid.css';
+@import './menu.css';
+@import './modal.css';
+@import './loading.css';
+@import './toast.css';

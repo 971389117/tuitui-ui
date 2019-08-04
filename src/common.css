@@ -4,6 +4,7 @@
 /* 样式2 */
 html {
   font-size: 20px;
+  height: 100%;
 }
 
 body{
@@ -16,6 +17,7 @@ body{
     overflow-x: hidden;
     /* 在 webkit 内核(ios)浏览器让滚动元素带有弹性,滚动更顺滑 */
     -webkit-overflow-scrolling: touch;
+    height: 100%;
 }
 
 
